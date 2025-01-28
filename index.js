@@ -14,11 +14,11 @@ app.get("/", (req, res) => {
 
 initializeDatabase();
 
-const jsonData = fs.readFileSync("movies.json", "utf-8");
-const moviesData = JSON.parse(jsonData);
+// const jsonData = fs.readFileSync("movies.json", "utf-8");
+// const moviesData = JSON.parse(jsonData);
 
-const jsonUserData = fs.readFileSync("userProfiles.json", "utf-8");
-const userData = JSON.parse(jsonUserData);
+// const jsonUserData = fs.readFileSync("userProfiles.json", "utf-8");
+// const userData = JSON.parse(jsonUserData);
 
 // function seedData() {
 //   try {
